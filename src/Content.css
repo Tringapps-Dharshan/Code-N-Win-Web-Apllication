@@ -1,0 +1,11 @@
+.btngreen{
+    background-color: #5BBC2E;
+    color: white;
+}
+.btngreen:hover{
+    background-color: #5ade1d;
+    color: white;
+}
+*{
+    margin: 0;
+}
