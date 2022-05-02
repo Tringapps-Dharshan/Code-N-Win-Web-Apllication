@@ -3,11 +3,11 @@ import Content from './Content';
 import Nav from './Nav';
 function App() {
   return (
-    <div className="row">
-      <div className='col-sm-3'>
+    <div className="row m-0">
+      <div className='col-sm-2 navbg'>
         <Nav/>
       </div>
-      <div className='col-sm-9 bg-white'>
+      <div className='col-sm-10 bg-white'>
         <Content/>
       </div>
     </div>

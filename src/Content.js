@@ -4,17 +4,18 @@ import './Content.css'
 import notification from './ic_notification-icon_notification_off.svg'
 import profile from './profile.png'
 function Content() {
+
   return (
-    <div className='bg-light'>
+    <div className=''>
         <header className='header bg-white'>
             <div className='row'>
                 <div className='col-sm-8'>
-                    <input type='text'/>
+                    <input type='search' className='form-control m-4' placeholder='Search your product here'/>
                 </div>
                 <div className='col-sm-4'>
                     <button className='btn btngreen'>+ Add project</button>
-                    <img src={notification} className='ic-notification-icon-notification'/>
-                    <img src={profile} className='profile'/>
+                    <img src={notification} className='ic-notification-icon-notification' alt='notofication-icon'/>
+                    <img src={profile} className='profile' alt='profilepic'/>
                 </div>
             </div>
         </header>

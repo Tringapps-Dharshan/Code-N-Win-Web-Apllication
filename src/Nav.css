@@ -3,7 +3,6 @@
     height: 100%;
     position: fixed;
     overflow-x: hidden;
-    padding: 5px 71.5px;
   }
   img{
       padding: 20px 0;
@@ -11,10 +10,11 @@
   }
   .side-navigation a{
       text-decoration: none;
-  }
-  .menu-bar{
-    background-color: rgba(255,255,255,0.05);
+      padding: 5px 20px;
   }
   *{
     margin: 0;
+  }
+  .navbg{
+    background-color: #04162C;
   }
