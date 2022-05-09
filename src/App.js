@@ -1,4 +1,3 @@
-import './bootstrap/css/bootstrap.min.css'
 import Content from './Content';
 import Nav from './Nav';
 function App() {

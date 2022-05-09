@@ -1,4 +1,3 @@
-import './bootstrap/css/bootstrap.min.css'
 import { Routes, Route, NavLink } from 'react-router-dom'
 import React from 'react'
 import dashboard from './Menues/icon_dashboard-icon_dashboard_selected.svg'
